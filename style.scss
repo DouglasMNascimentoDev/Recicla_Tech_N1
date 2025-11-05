@@ -36,4 +36,49 @@ a{
     color: red;
 }
 
+
 }
+
+
+.produtosDisponiveis{
+    background-color: aquamarine;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    article{
+        border: solid red;
+        width: 20%;
+        height: 70vh;
+        display: flex;
+
+        //flex-direction: row; //Padrão. Os itens são organizados em forma de linha, da esquerda para a direita.
+        //flex-direction: row-reverse; //Os itens são organizados em forma de linha, da direita para a esquerda.
+        flex-direction: column; //Os itens são organizados em coluna, de cima para baixo.
+        //flex-direction: column-reverse; //Os itens são organizados em coluna, de baixo para cima.
+
+        
+        justify-content: space-between;
+        align-items: center;
+        
+        img{
+        width:100%;
+        border: solid;
+        height: 30vh;
+        }
+
+        button{
+            width: 45%;
+            height: 5vh;
+            cursor: pointer;
+            margin-bottom: 1rem;
+            background-color: #16a34a;
+            color: #ffffff;
+            font-weight: 900;
+            border-radius: 15px;
+            font-size: 1rem;
+        }
+    }
+}
+
