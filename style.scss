@@ -29,6 +29,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     width: 40%;
+    align-items: center;
 }
 
 a{
@@ -63,6 +64,40 @@ a{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+
+            .boxBntsPrimeiraSection{
+                align-items: center;
+                display: flex;
+                width: 100%;
+                
+                
+                
+
+                .btnVerde{
+                    background-color: #21c05c;
+                    color: #ffffff;
+                    padding: 18px;
+                    width: 15%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    border-radius: 6px;
+                    
+                }
+
+                .btnBranco{
+                    background-color: #ffffff;
+                    color: #2563eb;
+                    padding: 18px;
+                    width: 17%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    border-radius: 6px;
+                }
+
+       
+            }
         }
     }
 
