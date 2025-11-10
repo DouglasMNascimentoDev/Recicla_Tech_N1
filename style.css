@@ -22,8 +22,8 @@ header h1 {
 }
 header nav {
   display: flex;
-  justify-content: space-evenly;
-  width: 40%;
+  justify-content: space-between;
+  width: 95%;
   align-items: center;
 }
 header a {
@@ -125,7 +125,7 @@ header .btnVerdeHeader {
     width: 100%;
   }
   nav a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   nav .btnVerdeHeader {
     font-size: 0.8rem;

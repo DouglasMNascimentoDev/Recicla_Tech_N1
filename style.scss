@@ -27,8 +27,8 @@ h1{
 
 nav{
     display: flex;
-    justify-content: space-evenly;
-    width: 40%;
+    justify-content: space-between;
+    width: 95%;
     align-items: center;
 }
 
@@ -169,7 +169,7 @@ nav{
     width: 100%;
 
     a{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .btnVerdeHeader{
