@@ -56,7 +56,6 @@ header .btnVerdeHeader {
 .primeiraSection section .boxBntsPrimeiraSection {
   align-items: center;
   display: flex;
-  width: 100%;
 }
 .primeiraSection section .boxBntsPrimeiraSection .btnVerde {
   background-color: #21c05c;
@@ -110,4 +109,38 @@ header .btnVerdeHeader {
   font-weight: 900;
   border-radius: 15px;
   font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    height: 20vh;
+  }
+  .caixaLogo {
+    border: solid;
+    width: 70%;
+  }
+  nav {
+    border: solid;
+    width: 100%;
+  }
+  nav a {
+    font-size: 0.8rem;
+  }
+  nav .btnVerdeHeader {
+    font-size: 0.8rem;
+  }
+  .produtosDisponiveis {
+    display: flex;
+    flex-direction: column;
+  }
+  .produtosDisponiveis article {
+    width: 60%;
+    text-align: center;
+  }
+  .produtosDisponiveis article button {
+    font-size: 1rem;
+    width: 70%;
+    font-weight: 400;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -68,7 +68,7 @@ a{
             .boxBntsPrimeiraSection{
                 align-items: center;
                 display: flex;
-                width: 100%;
+                
                 
                 
                 
@@ -146,3 +146,52 @@ a{
     
 }
 
+
+//@media(min-width: ;) and (max-width: ;)
+
+@media(max-width: 500px) {
+
+    header{
+        flex-direction: column;
+        height: 20vh;
+
+
+}
+
+.caixaLogo{
+    border: solid;
+    width: 70%;
+
+}
+
+nav{
+    border: solid;
+    width: 100%;
+
+    a{
+        font-size: 0.8rem;
+    }
+
+    .btnVerdeHeader{
+        font-size: 0.8rem;
+    }
+}
+
+.produtosDisponiveis{
+    display: flex;
+    flex-direction: column;
+
+    article{
+        width: 60%;
+        text-align: center;
+
+        button{
+            font-size: 1rem;
+            width: 70%;
+            font-weight: 400;
+    
+        }
+    }
+}
+
+}
