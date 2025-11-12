@@ -205,21 +205,34 @@ nav{
 }
 
 
-    .primeiraSection{
-        background-color: #2563eb;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-
-        section{
-            height: 80vh;
-            h2{
-                font-size: 1.5rem;
-
-            }
-        }
+    //-----Primeira Section - Mobile-----
+  .primeiraSection {
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    section {
+      height: 70vh;
+      background-color: #16a34a;
+      h2 {
+        font-size: 1.5rem;
+        width: 100%;
+      }
+      p {
+        width: 100%;
+      }
     }
-
+    .boxBtnsPrimeiraSection {
+      width: 100%;
+      button {
+        padding: 20px 30px;
+      }
+    }
+    img {
+      width: 50%;
+    }
+  }
 
 
 .produtosDisponiveis{

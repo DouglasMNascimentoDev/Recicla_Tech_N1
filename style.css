@@ -149,16 +149,31 @@ header .btnVerdeHeader {
     font-size: 0.8rem;
   }
   .primeiraSection {
-    background-color: #2563eb;
+    background-color: violet;
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 80vh;
   }
   .primeiraSection section {
-    height: 80vh;
+    height: 70vh;
+    background-color: #16a34a;
   }
   .primeiraSection section h2 {
     font-size: 1.5rem;
+    width: 100%;
+  }
+  .primeiraSection section p {
+    width: 100%;
+  }
+  .primeiraSection .boxBtnsPrimeiraSection {
+    width: 100%;
+  }
+  .primeiraSection .boxBtnsPrimeiraSection button {
+    padding: 20px 30px;
+  }
+  .primeiraSection img {
+    width: 50%;
   }
   .produtosDisponiveis {
     display: flex;
