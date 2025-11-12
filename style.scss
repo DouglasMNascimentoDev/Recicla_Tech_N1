@@ -7,7 +7,7 @@
 header{
     width: 100%;
     display: flex; //Ativa as caixas flexíveis
-    justify-content: space-around; //O primeiro espaço vazio o ultimo são iguais.
+    justify-content: space-evenly; //O primeiro espaço vazio o ultimo são iguais.
     //justify-content: space-evenly; //O mesmo espaçamento entre os itens.
     //justify-content: space-between; //O primeiro item fica no começo do eixo e o último fica no final do eixo.
 
@@ -15,7 +15,8 @@ header{
     align-items: center; //Os itens são alinhados no meio do eixo Y (vertical).
 
 
-div{
+.caixaLogo{
+    border: solid;
     display: flex;
     justify-content: space-evenly;
     width: 12%;
@@ -26,9 +27,10 @@ h1{
 }
 
 nav{
+    border: solid;
     display: flex;
-    justify-content: space-between;
-    width: 95%;
+    justify-content: space-evenly;
+    width: 100%;
     align-items: center;
 }
 
@@ -54,20 +56,37 @@ a{
 
 
 .primeiraSection{
-        background-color: yellow;
-        height: 50vh;
+        background-color: #ffffff;
+        border: solid red;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        align-items: center;
                
         section{
-            border: solid;
-            width: 50%;
-            height: 50vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
+            border: solid green;
+            width: 50;
+            
+            h2{
+                font-size: 3.75rem;
+                font-weight: 700;
+                width: 55%;
+                border: solid red;
+            }
 
+            p{
+                font-size: 1.25rem;
+                width: 50%;
+                border: solid;
+            }
+            
+           
             .boxBntsPrimeiraSection{
+                border: solid purple;
                 align-items: center;
                 display: flex;
+                width: 50%;
+                justify-content: space-around;
                 
                 
                 
@@ -77,11 +96,12 @@ a{
                     background-color: #21c05c;
                     color: #ffffff;
                     padding: 18px;
-                    width: 15%;
+                    width: 30%;
                     display: flex;
                     align-items: center;
                     justify-content: space-evenly;
                     border-radius: 6px;
+                    cursor: pointer;
                     
                 }
 
@@ -89,11 +109,12 @@ a{
                     background-color: #ffffff;
                     color: #2563eb;
                     padding: 18px;
-                    width: 17%;
+                    width: 30%;
                     display: flex;
                     align-items: center;
                     justify-content: space-evenly;
                     border-radius: 6px;
+                    cursor: pointer;
                 }
 
        
@@ -160,13 +181,19 @@ a{
 
 .caixaLogo{
     border: solid;
-    width: 70%;
+    width: 80%;
+
+    h1{
+
+    }
+    
 
 }
 
 nav{
     border: solid;
     width: 100%;
+    
 
     a{
         font-size: 1rem;
@@ -176,6 +203,24 @@ nav{
         font-size: 0.8rem;
     }
 }
+
+
+    .primeiraSection{
+        background-color: #2563eb;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        section{
+            height: 80vh;
+            h2{
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+
+
 
 .produtosDisponiveis{
     display: flex;
