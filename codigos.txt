@@ -1,0 +1,81 @@
+Desktop
+
+ <section class="primeiraSection">
+            <section>
+                <h2>Dê uma segunda vida aos seus eletrônicos!</h2>
+                <p>Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples,
+                    gratuito e sustentável!</p>
+                <div class="boxBtnsPrimeiraSection">
+                    <button class="btnVerde"> Quero doar </button>
+                    <button class="btnBranco"> Quero Adquirir </button>
+                </div>
+            </section>
+            <img src="./assets/reciclagem.png" alt="Imagem do coração com componentes eletrônicos" />
+        </section>
+
+//----------- Primeira section - Desktop ------------
+.primeiraSection {
+  border: solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+  section {
+    border: solid green;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    h2 {
+      font-size: 3.75rem;
+      font-weight: 700;
+      width: 55%;
+      border: solid red;
+    }
+    p {
+      font-size: 1.25rem;
+      width: 50%;
+      border: solid blue;
+    }
+  }
+}
+.boxBtnsPrimeiraSection {
+  border: solid purple;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  button {
+    cursor: pointer;
+    padding: 30px 40px;
+  }
+}
+ //-----Primeira Section - Mobile-----
+  .primeiraSection {
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    section {
+      height: 70vh;
+      background-color: #16a34a;
+      h2 {
+        font-size: 1.5rem;
+        width: 100%;
+      }
+      p {
+        width: 100%;
+      }
+    }
+    .boxBtnsPrimeiraSection {
+      width: 100%;
+      button {
+        padding: 20px 30px;
+      }
+    }
+    img {
+      width: 50%;
+    }
+  }
+
+

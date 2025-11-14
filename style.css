@@ -12,7 +12,6 @@ header {
   align-items: center;
 }
 header .caixaLogo {
-  border: solid;
   display: flex;
   justify-content: space-evenly;
   width: 12%;
@@ -22,7 +21,6 @@ header h1 {
   color: #1F2937;
 }
 header nav {
-  border: solid;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -45,29 +43,24 @@ header .btnVerdeHeader {
 
 .primeiraSection {
   background-color: #ffffff;
-  border: solid red;
   display: flex;
   justify-content: space-between;
   height: 70vh;
   align-items: center;
 }
 .primeiraSection section {
-  border: solid green;
   width: 50;
 }
 .primeiraSection section h2 {
   font-size: 3.75rem;
   font-weight: 700;
   width: 55%;
-  border: solid red;
 }
 .primeiraSection section p {
   font-size: 1.25rem;
   width: 50%;
-  border: solid;
 }
 .primeiraSection section .boxBntsPrimeiraSection {
-  border: solid purple;
   align-items: center;
   display: flex;
   width: 50%;
@@ -96,6 +89,25 @@ header .btnVerdeHeader {
   cursor: pointer;
 }
 
+.dadosNumericos {
+  background-color: #F3F5F8;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 20vh;
+}
+.dadosNumericos div {
+  width: 15%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.dadosNumericos div h2 {
+  color: #16A34A;
+}
+
 .produtosDisponiveis {
   background-color: aquamarine;
   height: 85vh;
@@ -104,7 +116,6 @@ header .btnVerdeHeader {
   align-items: center;
 }
 .produtosDisponiveis article {
-  border: solid red;
   width: 20%;
   height: 70vh;
   display: flex;
@@ -114,7 +125,6 @@ header .btnVerdeHeader {
 }
 .produtosDisponiveis article img {
   width: 100%;
-  border: solid;
   height: 30vh;
 }
 .produtosDisponiveis article button {
@@ -135,11 +145,9 @@ header .btnVerdeHeader {
     height: 20vh;
   }
   .caixaLogo {
-    border: solid;
     width: 80%;
   }
   nav {
-    border: solid;
     width: 100%;
   }
   nav a {
@@ -149,7 +157,6 @@ header .btnVerdeHeader {
     font-size: 0.8rem;
   }
   .primeiraSection {
-    background-color: violet;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -157,7 +164,6 @@ header .btnVerdeHeader {
   }
   .primeiraSection section {
     height: 70vh;
-    background-color: #16a34a;
   }
   .primeiraSection section h2 {
     font-size: 1.5rem;
@@ -174,6 +180,18 @@ header .btnVerdeHeader {
   }
   .primeiraSection img {
     width: 50%;
+  }
+  .dadosNumericos {
+    height: 25vh;
+  }
+  .dadosNumericos div {
+    width: 25%;
+  }
+  .dadosNumericos div h2 {
+    font-size: 1.8rem;
+  }
+  .dadosNumericos div p {
+    font-size: 1rem;
   }
   .produtosDisponiveis {
     display: flex;

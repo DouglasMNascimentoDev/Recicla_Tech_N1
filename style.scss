@@ -16,7 +16,7 @@ header{
 
 
 .caixaLogo{
-    border: solid;
+    
     display: flex;
     justify-content: space-evenly;
     width: 12%;
@@ -27,7 +27,7 @@ h1{
 }
 
 nav{
-    border: solid;
+    
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -57,32 +57,32 @@ a{
 
 .primeiraSection{
         background-color: #ffffff;
-        border: solid red;
+        
         display: flex;
         justify-content: space-between;
         height: 70vh;
         align-items: center;
                
         section{
-            border: solid green;
+            
             width: 50;
             
             h2{
                 font-size: 3.75rem;
                 font-weight: 700;
                 width: 55%;
-                border: solid red;
+                
             }
 
             p{
                 font-size: 1.25rem;
                 width: 50%;
-                border: solid;
+                
             }
             
            
             .boxBntsPrimeiraSection{
-                border: solid purple;
+                
                 align-items: center;
                 display: flex;
                 width: 50%;
@@ -123,6 +123,29 @@ a{
     }
 
 
+.dadosNumericos{
+    background-color: #F3F5F8;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 20vh;
+        div{
+            
+            width: 15%;
+            height: 15vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+            
+            h2{
+                color: #16A34A;
+            }
+        }
+
+  }    
+
 .produtosDisponiveis{
     background-color: aquamarine;
     height: 85vh;
@@ -131,7 +154,7 @@ a{
     align-items: center;
 
     article{
-        border: solid red;
+        
         width: 20%;
         height: 70vh;
         display: flex;
@@ -147,7 +170,7 @@ a{
         
         img{
         width:100%;
-        border: solid;
+        
         height: 30vh;
         }
 
@@ -180,7 +203,7 @@ a{
 }
 
 .caixaLogo{
-    border: solid;
+    
     width: 80%;
 
     h1{
@@ -191,7 +214,7 @@ a{
 }
 
 nav{
-    border: solid;
+    
     width: 100%;
     
 
@@ -207,14 +230,14 @@ nav{
 
     //-----Primeira Section - Mobile-----
   .primeiraSection {
-    background-color: violet;
+    
     display: flex;
     flex-direction: column;
     text-align: center;
     height: 80vh;
     section {
       height: 70vh;
-      background-color: #16a34a;
+      
       h2 {
         font-size: 1.5rem;
         width: 100%;
@@ -233,6 +256,28 @@ nav{
       width: 50%;
     }
   }
+
+  
+
+
+
+.dadosNumericos{
+    
+    height: 25vh;
+
+div{
+    width: 25%;
+h2{
+    font-size: 1.8rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+}
+
+}
 
 
 .produtosDisponiveis{
