@@ -7,7 +7,7 @@
 header {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 15vh;
   align-items: center;
 }
@@ -16,6 +16,7 @@ header .caixaLogo {
   justify-content: space-evenly;
   width: 12%;
   align-items: center;
+  border: solid;
 }
 header h1 {
   color: #1F2937;
@@ -23,7 +24,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  width: 40%;
   align-items: center;
 }
 header a {
@@ -42,14 +43,16 @@ header .btnVerdeHeader {
 }
 
 .primeiraSection {
-  background-color: #ffffff;
   display: flex;
-  justify-content: space-between;
-  height: 70vh;
+  justify-content: space-around;
   align-items: center;
+  height: 60vh;
 }
 .primeiraSection section {
-  width: 50;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .primeiraSection section h2 {
   font-size: 3.75rem;
@@ -60,33 +63,15 @@ header .btnVerdeHeader {
   font-size: 1.25rem;
   width: 50%;
 }
-.primeiraSection section .boxBntsPrimeiraSection {
-  align-items: center;
-  display: flex;
+
+.boxBtnsPrimeiraSection {
   width: 50%;
+  display: flex;
   justify-content: space-around;
 }
-.primeiraSection section .boxBntsPrimeiraSection .btnVerde {
-  background-color: #21c05c;
-  color: #ffffff;
-  padding: 18px;
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 6px;
+.boxBtnsPrimeiraSection button {
   cursor: pointer;
-}
-.primeiraSection section .boxBntsPrimeiraSection .btnBranco {
-  background-color: #ffffff;
-  color: #2563eb;
-  padding: 18px;
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 6px;
-  cursor: pointer;
+  padding: 30px 40px;
 }
 
 .dadosNumericos {
@@ -109,7 +94,6 @@ header .btnVerdeHeader {
 }
 
 .produtosDisponiveis {
-  background-color: aquamarine;
   height: 85vh;
   display: flex;
   justify-content: space-around;
@@ -125,6 +109,7 @@ header .btnVerdeHeader {
 }
 .produtosDisponiveis article img {
   width: 100%;
+  border: solid;
   height: 30vh;
 }
 .produtosDisponiveis article button {
@@ -141,17 +126,21 @@ header .btnVerdeHeader {
 
 @media (max-width: 500px) {
   header {
+    width: 100%;
+    display: flex;
     flex-direction: column;
     height: 20vh;
   }
   .caixaLogo {
-    width: 80%;
+    width: 100%;
+    border: solid;
   }
   nav {
+    border: solid;
     width: 100%;
   }
   nav a {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   nav .btnVerdeHeader {
     font-size: 0.8rem;

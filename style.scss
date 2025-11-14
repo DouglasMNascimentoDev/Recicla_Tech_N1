@@ -7,7 +7,7 @@
 header{
     width: 100%;
     display: flex; //Ativa as caixas flexíveis
-    justify-content: space-evenly; //O primeiro espaço vazio o ultimo são iguais.
+    justify-content: space-around; //O primeiro espaço vazio o ultimo são iguais.
     //justify-content: space-evenly; //O mesmo espaçamento entre os itens.
     //justify-content: space-between; //O primeiro item fica no começo do eixo e o último fica no final do eixo.
 
@@ -21,6 +21,7 @@ header{
     justify-content: space-evenly;
     width: 12%;
     align-items: center;
+    border: solid;
 }    
 h1{
     color: #1F2937;
@@ -28,10 +29,14 @@ h1{
 
 nav{
     
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: center;
+
+  // border: solid rgb(14, 196, 29);
+  display: flex;
+  justify-content: space-evenly;
+  //justify-content: space-between;
+  width: 40%;
+  align-items: center;
+
 }
 
 a{
@@ -55,72 +60,46 @@ a{
 }
 
 
-.primeiraSection{
-        background-color: #ffffff;
-        
-        display: flex;
-        justify-content: space-between;
-        height: 70vh;
-        align-items: center;
-               
-        section{
-            
-            width: 50;
-            
-            h2{
-                font-size: 3.75rem;
-                font-weight: 700;
-                width: 55%;
-                
-            }
+.primeiraSection {
+  //border: solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
 
-            p{
-                font-size: 1.25rem;
-                width: 50%;
-                
-            }
-            
-           
-            .boxBntsPrimeiraSection{
-                
-                align-items: center;
-                display: flex;
-                width: 50%;
-                justify-content: space-around;
-                
-                
-                
-                
+  section {
+    //border: solid green;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
-                .btnVerde{
-                    background-color: #21c05c;
-                    color: #ffffff;
-                    padding: 18px;
-                    width: 30%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    border-radius: 6px;
-                    cursor: pointer;
-                    
-                }
-
-                .btnBranco{
-                    background-color: #ffffff;
-                    color: #2563eb;
-                    padding: 18px;
-                    width: 30%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    border-radius: 6px;
-                    cursor: pointer;
-                }
-
-       
-            }
-        }
+    h2 {
+      font-size: 3.75rem;
+      font-weight: 700;
+      width: 55%;
+     // border: solid red;
     }
+
+    p {
+      font-size: 1.25rem;
+      width: 50%;
+      //border: solid blue;
+    }
+  }
+}
+           
+            .boxBtnsPrimeiraSection {
+  //border: solid purple;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+
+  button {
+    cursor: pointer;
+    padding: 30px 40px;
+  }
+}
 
 
 .dadosNumericos{
@@ -147,7 +126,7 @@ a{
   }    
 
 .produtosDisponiveis{
-    background-color: aquamarine;
+    
     height: 85vh;
     display: flex;
     justify-content: space-around;
@@ -170,7 +149,7 @@ a{
         
         img{
         width:100%;
-        
+        border: solid;
         height: 30vh;
         }
 
@@ -195,31 +174,29 @@ a{
 
 @media(max-width: 500px) {
 
-    header{
-        flex-direction: column;
-        height: 20vh;
-
-
-}
+    header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+  }
 
 .caixaLogo{
     
-    width: 80%;
+    width: 100%;
+    border: solid;
 
-    h1{
-
-    }
-    
+       
 
 }
 
 nav{
-    
+    border: solid;
     width: 100%;
     
 
     a{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .btnVerdeHeader{
